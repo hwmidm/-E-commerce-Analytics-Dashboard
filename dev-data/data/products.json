@@ -1,0 +1,1107 @@
+[
+  {
+    "name": "گوشی هوشمند سامسونگ مدل Galaxy S23",
+    "category": "موبایل",
+    "price": 35000000,
+    "available": true,
+    "description": "جدیدترین گوشی پرچمدار سامسونگ با دوربین فوق‌العاده و پردازنده قدرتمند.",
+    "stock": 150,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Galaxy+S23"],
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 120
+  },
+  {
+    "name": "لپ تاپ ایسوس مدل ROG Strix G15",
+    "category": "لپ تاپ",
+    "price": 42000000,
+    "available": true,
+    "description": "لپ تاپ گیمینگ قدرتمند با کارت گرافیک RTX 4070 و نمایشگر 144Hz.",
+    "stock": 75,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=ASUS+ROG+Strix"
+    ],
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 85
+  },
+  {
+    "name": "تلویزیون هوشمند ال‌جی مدل OLED C2 65 اینچ",
+    "category": "خانه و آشپزخانه",
+    "price": 70000000,
+    "available": true,
+    "description": "تلویزیون OLED با کیفیت تصویر بی‌نظیر و قابلیت‌های هوشمند پیشرفته.",
+    "stock": 40,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=LG+OLED+TV"],
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 60
+  },
+  {
+    "name": "هدفون بی‌سیم سونی مدل WH-1000XM5",
+    "category": "سایر",
+    "price": 12000000,
+    "available": true,
+    "description": "هدفون نویز کنسلینگ با کیفیت صدای عالی و باتری طولانی‌مدت.",
+    "stock": 200,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Sony+Headphones"
+    ],
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 150
+  },
+  {
+    "name": "کتاب رمان 'صد سال تنهایی' اثر گابریل گارسیا مارکز",
+    "category": "سایر",
+    "price": 350000,
+    "available": true,
+    "description": "یکی از شاهکارهای ادبیات جهان، رمانی جادویی و فراموش‌نشدنی.",
+    "stock": 500,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=One+Hundred+Years"
+    ],
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 300
+  },
+  {
+    "name": "ماشین لباسشویی بوش مدل WAW28460ME",
+    "category": "خانه و آشپزخانه",
+    "price": 28000000,
+    "available": true,
+    "description": "ماشین لباسشویی با ظرفیت 8 کیلوگرم و تکنولوژی EcoSilence Drive.",
+    "stock": 30,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Bosch+Washing+Machine"
+    ],
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 45
+  },
+  {
+    "name": "کفش ورزشی نایک مدل Air Max 270",
+    "category": "پوشاک",
+    "price": 6500000,
+    "available": true,
+    "description": "کفش ورزشی راحت و شیک مناسب برای استفاده روزمره و تمرین.",
+    "stock": 180,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Nike+Air+Max"],
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 90
+  },
+  {
+    "name": "ساعت هوشمند اپل مدل Watch Series 8",
+    "category": "سایر",
+    "price": 20000000,
+    "available": true,
+    "description": "ساعت هوشمند با قابلیت‌های پایش سلامت و اتصال به آیفون.",
+    "stock": 100,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Apple+Watch+S8"
+    ],
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 110
+  },
+  {
+    "name": "دوربین عکاسی کانن مدل EOS R6 Mark II",
+    "category": "سایر",
+    "price": 95000000,
+    "available": true,
+    "description": "دوربین میرورلس فول فریم با قابلیت‌های فیلمبرداری 4K و عکاسی سریع.",
+    "stock": 25,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Canon+EOS+R6"],
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 35
+  },
+  {
+    "name": "میکروفون استودیویی Blue Yeti",
+    "category": "سایر",
+    "price": 4000000,
+    "available": true,
+    "description": "میکروفون USB با کیفیت بالا برای استریم، پادکست و ضبط صدا.",
+    "stock": 90,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Blue+Yeti+Mic"],
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 70
+  },
+  {
+    "name": "کتاب 'کیمیاگر' اثر پائولو کوئلیو",
+    "category": "سایر",
+    "price": 280000,
+    "available": true,
+    "description": "رمانی الهام‌بخش درباره سفر یک چوپان برای یافتن گنج.",
+    "stock": 600,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=The+Alchemist"],
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 250
+  },
+  {
+    "name": "یخچال ساید بای ساید سامسونگ مدل RS50",
+    "category": "خانه و آشپزخانه",
+    "price": 55000000,
+    "available": true,
+    "description": "یخچال جادار با طراحی مدرن و سیستم خنک‌کننده Twin Cooling Plus.",
+    "stock": 20,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Samsung+Fridge"
+    ],
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 30
+  },
+  {
+    "name": "پاوربانک شیائومی مدل Redmi 20000mAh",
+    "category": "سایر",
+    "price": 1500000,
+    "available": true,
+    "description": "پاوربانک با ظرفیت بالا و پشتیبانی از شارژ سریع.",
+    "stock": 300,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Xiaomi+Powerbank"
+    ],
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 200
+  },
+  {
+    "name": "هارد اکسترنال وسترن دیجیتال مدل My Passport 2TB",
+    "category": "سایر",
+    "price": 3000000,
+    "available": true,
+    "description": "هارد دیسک قابل حمل با ظرفیت 2 ترابایت و امنیت بالا.",
+    "stock": 120,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=WD+My+Passport"
+    ],
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 70
+  },
+  {
+    "name": "میز تحریر چوبی مدل کلاسیک",
+    "category": "خانه",
+    "price": 7000000,
+    "available": true,
+    "description": "میز تحریر چوبی با طراحی سنتی و کشوهای جادار.",
+    "stock": 50,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Wooden+Desk"],
+    "ratingsAverage": 4.3,
+    "ratingsQuantity": 25
+  },
+  {
+    "name": "صندلی اداری ارگونومیک",
+    "category": "خانه",
+    "price": 8500000,
+    "available": true,
+    "description": "صندلی اداری با پشتیبانی کامل از کمر و قابلیت تنظیم ارتفاع.",
+    "stock": 60,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Ergonomic+Chair"
+    ],
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 40
+  },
+  {
+    "name": "ماوس گیمینگ لاجیتک مدل G502 HERO",
+    "category": "سایر",
+    "price": 2500000,
+    "available": true,
+    "description": "ماوس گیمینگ با سنسور دقیق و دکمه‌های قابل برنامه‌ریزی.",
+    "stock": 170,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Logitech+G502"],
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 130
+  },
+  {
+    "name": "کیبورد مکانیکال ریزر مدل BlackWidow V3",
+    "category": "سایر",
+    "price": 4500000,
+    "available": true,
+    "description": "کیبورد گیمینگ با سوییچ‌های سبز ریزر و نورپردازی RGB.",
+    "stock": 80,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?FFFFFF?text=Razer+BlackWidow"
+    ],
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 65
+  },
+  {
+    "name": "مانیتور گیمینگ ایسوس مدل ROG Swift PG279QM",
+    "category": "سایر",
+    "price": 32000000,
+    "available": true,
+    "description": "مانیتور 27 اینچ QHD با نرخ رفرش 240Hz و G-Sync.",
+    "stock": 35,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=ASUS+ROG+Monitor"
+    ],
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 40
+  },
+  {
+    "name": "اسپیکر بلوتوثی JBL Flip 6",
+    "category": "سایر",
+    "price": 3800000,
+    "available": true,
+    "description": "اسپیکر قابل حمل با صدای قدرتمند و مقاومت در برابر آب.",
+    "stock": 190,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=JBL+Flip+6"],
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 100
+  },
+  {
+    "name": "کتاب 'هنر شفاف اندیشیدن' اثر رولف دوبلی",
+    "category": "سایر",
+    "price": 250000,
+    "available": true,
+    "description": "کتابی جذاب درباره خطاهای شناختی و نحوه تفکر منطقی.",
+    "stock": 450,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Art+of+Thinking"
+    ],
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 180
+  },
+  {
+    "name": "سرویس قابلمه 7 پارچه تفلون",
+    "category": "خانه و آشپزخانه",
+    "price": 4000000,
+    "available": true,
+    "description": "سرویس قابلمه با پوشش نچسب و دسته‌های مقاوم در برابر حرارت.",
+    "stock": 70,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Teflon+Pots"],
+    "ratingsAverage": 4.2,
+    "ratingsQuantity": 30
+  },
+  {
+    "name": "جاروبرقی فیلیپس مدل FC9350",
+    "category": "خانه و آشپزخانه",
+    "price": 6000000,
+    "available": true,
+    "description": "جاروبرقی کیسه‌ای با قدرت مکش بالا و فیلتر HEPA.",
+    "stock": 40,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Philips+Vacuum"
+    ],
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 28
+  },
+  {
+    "name": "پتو مسافرتی نرم و سبک",
+    "category": "خانه",
+    "price": 800000,
+    "available": true,
+    "description": "پتو مسافرتی با جنس نرم و سبک، مناسب برای سفر و استفاده روزمره.",
+    "stock": 250,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Travel+Blanket"
+    ],
+    "ratingsAverage": 4.1,
+    "ratingsQuantity": 95
+  },
+  {
+    "name": "روغن موتور خودرو مدل SN 10W-40",
+    "category": "سایر",
+    "price": 800000,
+    "available": true,
+    "description": "روغن موتور با کیفیت بالا مناسب برای انواع خودروهای بنزینی.",
+    "stock": 400,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Motor+Oil"],
+    "ratingsAverage": 4.3,
+    "ratingsQuantity": 110
+  },
+  {
+    "name": "چراغ مطالعه LED با قابلیت تنظیم نور",
+    "category": "خانه",
+    "price": 1200000,
+    "available": true,
+    "description": "چراغ مطالعه مدرن با نور قابل تنظیم و مصرف انرژی پایین.",
+    "stock": 100,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=LED+Desk+Lamp"],
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 55
+  },
+  {
+    "name": "ست لباس زیر زنانه نخی",
+    "category": "پوشاک",
+    "price": 950000,
+    "available": true,
+    "description": "ست لباس زیر زنانه با جنس نخی نرم و راحت.",
+    "stock": 300,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Women+Underwear"
+    ],
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 80
+  },
+  {
+    "name": "شلوار جین مردانه مدل Slim Fit",
+    "category": "پوشاک",
+    "price": 1800000,
+    "available": true,
+    "description": "شلوار جین مردانه با برش اسلیم فیت و جنس با کیفیت.",
+    "stock": 220,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Men+Slim+Fit+Jeans"
+    ],
+    "ratingsAverage": 4.3,
+    "ratingsQuantity": 140
+  },
+  {
+    "name": "کتاب 'اثر مرکب' اثر دارن هاردی",
+    "category": "سایر",
+    "price": 320000,
+    "available": true,
+    "description": "کتابی انگیزشی درباره قدرت عادت‌های کوچک و نتایج بزرگ.",
+    "stock": 550,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=The+Compound+Effect"
+    ],
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 280
+  },
+  {
+    "name": "پاوربانک سامسونگ مدل EB-P3300",
+    "category": "سایر",
+    "price": 2000000,
+    "available": true,
+    "description": "پاوربانک اصلی سامسونگ با ظرفیت 10000mAh و شارژ سریع.",
+    "stock": 160,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Samsung+Powerbank"
+    ],
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 100
+  },
+  {
+    "name": "گوشی هوشمند شیائومی مدل Redmi Note 12 Pro",
+    "category": "موبایل",
+    "price": 12000000,
+    "available": true,
+    "description": "گوشی میان‌رده با دوربین عالی و باتری قدرتمند.",
+    "stock": 250,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Redmi+Note+12"],
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 200
+  },
+  {
+    "name": "لپ تاپ اچ‌پی مدل Pavilion 15",
+    "category": "لپ تاپ",
+    "price": 28000000,
+    "available": true,
+    "description": "لپ تاپ مناسب برای کارهای روزمره و دانشجویی با پردازنده Core i5.",
+    "stock": 100,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=HP+Pavilion"],
+    "ratingsAverage": 4.2,
+    "ratingsQuantity": 70
+  },
+  {
+    "name": "یخچال فریزر دوقلو الکترواستیل مدل ES27",
+    "category": "خانه و آشپزخانه",
+    "price": 45000000,
+    "available": true,
+    "description": "یخچال فریزر دوقلو با فضای زیاد و مصرف انرژی بهینه.",
+    "stock": 25,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Electrosteel+Fridge"
+    ],
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 30
+  },
+  {
+    "name": "ساعت مچی مردانه کاسیو مدل Edifice",
+    "category": "پوشاک",
+    "price": 4000000,
+    "available": true,
+    "description": "ساعت مچی اسپرت و شیک با بدنه استیل و مقاومت در برابر آب.",
+    "stock": 120,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Casio+Edifice"],
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 80
+  },
+  {
+    "name": "پلوپز چندکاره پارس خزر مدل RC-181TY",
+    "category": "خانه و آشپزخانه",
+    "price": 2500000,
+    "available": true,
+    "description": "پلوپز با قابلیت‌های پخت انواع برنج و ته دیگ، دارای تایمر.",
+    "stock": 90,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Pars+Khazar+Rice+Cooker"
+    ],
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 50
+  },
+  {
+    "name": "کفش پیاده‌روی زنانه آدیداس مدل Ultraboost 22",
+    "category": "پوشاک",
+    "price": 8000000,
+    "available": true,
+    "description": "کفش پیاده‌روی فوق‌العاده راحت با تکنولوژی Boost.",
+    "stock": 150,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Adidas+Ultraboost"
+    ],
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 110
+  },
+  {
+    "name": "مبل راحتی 7 نفره مدل چستر",
+    "category": "خانه",
+    "price": 30000000,
+    "available": true,
+    "description": "ست مبل راحتی با طراحی کلاسیک و پارچه با کیفیت.",
+    "stock": 15,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Chesterfield+Sofa"
+    ],
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 10
+  },
+  {
+    "name": "روغن زیتون فرابکر 1 لیتری",
+    "category": "سایر",
+    "price": 450000,
+    "available": true,
+    "description": "روغن زیتون با کیفیت عالی، مناسب برای سالاد و پخت و پز.",
+    "stock": 300,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Olive+Oil"],
+    "ratingsAverage": 4.3,
+    "ratingsQuantity": 180
+  },
+  {
+    "name": "جارو شارژی بوش مدل BCS611P4A",
+    "category": "خانه و آشپزخانه",
+    "price": 15000000,
+    "available": true,
+    "description": "جارو شارژی سبک و قدرتمند با باتری لیتیومی.",
+    "stock": 50,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Bosch+Cordless+Vacuum"
+    ],
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 35
+  },
+  {
+    "name": "پیراهن مردانه نخی طرح چهارخانه",
+    "category": "پوشاک",
+    "price": 1200000,
+    "available": true,
+    "description": "پیراهن مردانه با کیفیت بالا، مناسب برای استفاده روزمره.",
+    "stock": 200,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Plaid+Shirt"],
+    "ratingsAverage": 4.1,
+    "ratingsQuantity": 90
+  },
+  {
+    "name": "گوشی هوشمند اپل مدل iPhone 14 Pro Max",
+    "category": "موبایل",
+    "price": 60000000,
+    "available": true,
+    "description": "پرچمدار اپل با دوربین پیشرفته و تراشه A16 Bionic.",
+    "stock": 80,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=iPhone+14+Pro+Max"
+    ],
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 180
+  },
+  {
+    "name": "لپ تاپ مک‌بوک ایر مدل M2",
+    "category": "لپ تاپ",
+    "price": 50000000,
+    "available": true,
+    "description": "لپ تاپ سبک و قدرتمند اپل با تراشه M2.",
+    "stock": 60,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=MacBook+Air+M2"
+    ],
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 75
+  },
+  {
+    "name": "سرویس غذاخوری 6 نفره چینی",
+    "category": "خانه و آشپزخانه",
+    "price": 7000000,
+    "available": true,
+    "description": "سرویس غذاخوری شیک و با دوام مناسب برای 6 نفر.",
+    "stock": 40,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Dinnerware+Set"
+    ],
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 20
+  },
+  {
+    "name": "کتاب 'چرا ملت‌ها شکست می‌خورند' اثر دارون عجم‌اوغلو و جیمز رابینسون",
+    "category": "سایر",
+    "price": 400000,
+    "available": true,
+    "description": "تحلیلی عمیق درباره علل موفقیت و شکست کشورها.",
+    "stock": 350,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Why+Nations+Fail"
+    ],
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 100
+  },
+  {
+    "name": "ماشین ظرفشویی بوش مدل SMS88TI03E",
+    "category": "خانه و آشپزخانه",
+    "price": 38000000,
+    "available": true,
+    "description": "ماشین ظرفشویی با ظرفیت بالا و برنامه‌های شستشوی متنوع.",
+    "stock": 20,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Bosch+Dishwasher"
+    ],
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 25
+  },
+  {
+    "name": "تی‌شرت مردانه نایک مدل Sportswear",
+    "category": "پوشاک",
+    "price": 800000,
+    "available": true,
+    "description": "تی‌شرت ورزشی راحت و با کیفیت مناسب برای تمرین و استفاده روزمره.",
+    "stock": 300,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Nike+T-Shirt"],
+    "ratingsAverage": 4.2,
+    "ratingsQuantity": 150
+  },
+  {
+    "name": "فرش ماشینی 9 متری طرح افشان",
+    "category": "خانه",
+    "price": 18000000,
+    "available": true,
+    "description": "فرش ماشینی با کیفیت بالا و طرح سنتی زیبا.",
+    "stock": 10,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Persian+Carpet"
+    ],
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 8
+  },
+  {
+    "name": "قهوه‌ساز دلونگی مدل ECAM22.110.B",
+    "category": "خانه و آشپزخانه",
+    "price": 16000000,
+    "available": true,
+    "description": "قهوه‌ساز اسپرسو اتوماتیک با آسیاب داخلی.",
+    "stock": 30,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=DeLonghi+Coffee+Machine"
+    ],
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 22
+  },
+  {
+    "name": "شلوار کتان مردانه مدل اسلیم",
+    "category": "پوشاک",
+    "price": 1500000,
+    "available": true,
+    "description": "شلوار کتان با برش اسلیم و جنس راحت، مناسب برای استایل کژوال.",
+    "stock": 180,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Men+Chino+Pants"
+    ],
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 70
+  },
+  {
+    "name": "گوشی هوشمند سامسونگ مدل Galaxy A54",
+    "category": "موبایل",
+    "price": 18000000,
+    "available": true,
+    "description": "گوشی میان‌رده محبوب با نمایشگر AMOLED و باتری قوی.",
+    "stock": 200,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Galaxy+A54"],
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 160
+  },
+  {
+    "name": "لپ تاپ لنوو مدل IdeaPad Gaming 3",
+    "category": "لپ تاپ",
+    "price": 35000000,
+    "available": true,
+    "description": "لپ تاپ گیمینگ اقتصادی با کارت گرافیک RTX 3050.",
+    "stock": 65,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Lenovo+IdeaPad+Gaming"
+    ],
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 55
+  },
+  {
+    "name": "ماشین اصلاح موی سر و صورت فیلیپس مدل HC5610",
+    "category": "سایر",
+    "price": 2000000,
+    "available": true,
+    "description": "ماشین اصلاح با تیغه‌های خود تیز شونده و قابلیت شستشو.",
+    "stock": 100,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Philips+Hair+Clipper"
+    ],
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 60
+  },
+  {
+    "name": "کتاب 'انسان خردمند' اثر یووال نوح هراری",
+    "category": "سایر",
+    "price": 380000,
+    "available": true,
+    "description": "تاریخ مختصر بشریت از دوران باستان تا آینده.",
+    "stock": 400,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Sapiens+Book"],
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 250
+  },
+  {
+    "name": "هود آشپزخانه اخوان مدل H20",
+    "category": "خانه و آشپزخانه",
+    "price": 6000000,
+    "available": true,
+    "description": "هود آشپزخانه با قدرت مکش بالا و طراحی مدرن.",
+    "stock": 30,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Akhavan+Hood"],
+    "ratingsAverage": 4.1,
+    "ratingsQuantity": 18
+  },
+  {
+    "name": "سرویس خواب دو نفره مدل مدرن",
+    "category": "خانه",
+    "price": 22000000,
+    "available": true,
+    "description": "سرویس خواب کامل شامل تخت، کمد و میز آرایش.",
+    "stock": 8,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Modern+Bedroom+Set"
+    ],
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 5
+  },
+  {
+    "name": "پتو پشمی گلبافت",
+    "category": "خانه",
+    "price": 1500000,
+    "available": true,
+    "description": "پتو پشمی نرم و گرم، مناسب برای فصول سرد.",
+    "stock": 150,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Golbaft+Blanket"
+    ],
+    "ratingsAverage": 4.2,
+    "ratingsQuantity": 70
+  },
+  {
+    "name": "شامپو ضد ریزش مو سریتا",
+    "category": "سایر",
+    "price": 180000,
+    "available": true,
+    "description": "شامپو تقویتی برای جلوگیری از ریزش مو و افزایش رشد.",
+    "stock": 500,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Cerita+Shampoo"
+    ],
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 250
+  },
+  {
+    "name": "کوله پشتی لپ تاپ ضد آب",
+    "category": "سایر",
+    "price": 1000000,
+    "available": true,
+    "description": "کوله پشتی با فضای مجزا برای لپ تاپ و ضد آب.",
+    "stock": 100,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Waterproof+Laptop+Bag"
+    ],
+    "ratingsAverage": 4.3,
+    "ratingsQuantity": 45
+  },
+  {
+    "name": "ساعت دیواری چوبی مدل روستیک",
+    "category": "خانه",
+    "price": 900000,
+    "available": true,
+    "description": "ساعت دیواری چوبی با طراحی روستیک و اعداد بزرگ.",
+    "stock": 70,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Rustic+Wall+Clock"
+    ],
+    "ratingsAverage": 4.1,
+    "ratingsQuantity": 30
+  },
+  {
+    "name": "لباس ورزشی زنانه ست لگ و نیم‌تنه",
+    "category": "پوشاک",
+    "price": 2500000,
+    "available": true,
+    "description": "ست لباس ورزشی زنانه با پارچه تنفسی، مناسب باشگاه.",
+    "stock": 120,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Women+Sportswear+Set"
+    ],
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 80
+  },
+  {
+    "name": "کتاب 'عادت‌های اتمی' اثر جیمز کلیر",
+    "category": "سایر",
+    "price": 300000,
+    "available": true,
+    "description": "راهنمای عملی برای ساختن عادت‌های خوب و ترک عادت‌های بد.",
+    "stock": 480,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Atomic+Habits"],
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 220
+  },
+  {
+    "name": "گوشی هوشمند سامسونگ مدل Galaxy A34",
+    "category": "موبایل",
+    "price": 10500000,
+    "available": true,
+    "description": "گوشی میان‌رده با نمایشگر Super AMOLED و باتری بادوام.",
+    "stock": 220,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Galaxy+A34"],
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 180
+  },
+  {
+    "name": "لپ تاپ مایکروسافت مدل Surface Laptop 5",
+    "category": "لپ تاپ",
+    "price": 48000000,
+    "available": true,
+    "description": "لپ تاپ سبک و شیک با عملکرد عالی برای کارهای روزمره و حرفه‌ای.",
+    "stock": 55,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Surface+Laptop+5"
+    ],
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 65
+  },
+  {
+    "name": "اجاق گاز فردار اسنوا مدل SGC5-1101",
+    "category": "خانه و آشپزخانه",
+    "price": 18000000,
+    "available": true,
+    "description": "اجاق گاز با 5 شعله و فر بزرگ، مناسب برای آشپزی حرفه‌ای.",
+    "stock": 20,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Snowa+Oven"],
+    "ratingsAverage": 4.3,
+    "ratingsQuantity": 28
+  },
+  {
+    "name": "کتانی ورزشی مردانه پوما مدل Suede Classic",
+    "category": "پوشاک",
+    "price": 3800000,
+    "available": true,
+    "description": "کتانی کلاسیک و راحت مناسب برای استایل روزمره و اسپرت.",
+    "stock": 160,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Puma+Suede"],
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 95
+  },
+  {
+    "name": "مخلوط کن و آسیاب کن بوش مدل MMB6172M",
+    "category": "خانه و آشپزخانه",
+    "price": 7500000,
+    "available": true,
+    "description": "مخلوط کن قدرتمند با پارچ شیشه‌ای و قابلیت آسیاب کردن.",
+    "stock": 85,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Bosch+Blender"],
+    "ratingsAverage": 4.2,
+    "ratingsQuantity": 40
+  },
+  {
+    "name": "پالتو زنانه پشمی مدل بلند",
+    "category": "پوشاک",
+    "price": 4500000,
+    "available": true,
+    "description": "پالتو زنانه شیک و گرم، مناسب برای فصول سرد.",
+    "stock": 110,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Wool+Coat"],
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 60
+  },
+  {
+    "name": "کتاب 'اثر مکعب' اثر دارن هاردی",
+    "category": "سایر",
+    "price": 300000,
+    "available": true,
+    "description": "راهنمای عملی برای ساختن عادت‌های خوب و ترک عادت‌های بد.",
+    "stock": 480,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=The+Compound+Effect"
+    ],
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 220
+  },
+  {
+    "name": "تصفیه کننده هوا شیائومی مدل Air Purifier 4 Pro",
+    "category": "خانه",
+    "price": 9000000,
+    "available": true,
+    "description": "تصفیه کننده هوا با فیلتراسیون 360 درجه و کنترل هوشمند.",
+    "stock": 45,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Xiaomi+Air+Purifier"
+    ],
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 30
+  },
+  {
+    "name": "اتو بخار فیلیپس مدل Azur Performer Plus GC4902",
+    "category": "خانه و آشپزخانه",
+    "price": 3200000,
+    "available": true,
+    "description": "اتو بخار با کفی SteamGlide Plus و بخاردهی قدرتمند.",
+    "stock": 70,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Philips+Iron"],
+    "ratingsAverage": 4.1,
+    "ratingsQuantity": 50
+  },
+  {
+    "name": "شلوار اسلش مردانه نخی",
+    "category": "پوشاک",
+    "price": 900000,
+    "available": true,
+    "description": "شلوار اسلش راحت و مناسب برای استفاده روزمره و ورزشی.",
+    "stock": 250,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Men+Jogger+Pants"
+    ],
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 100
+  },
+  {
+    "name": "گوشی هوشمند هواوی مدل P60 Pro",
+    "category": "موبایل",
+    "price": 40000000,
+    "available": true,
+    "description": "گوشی پرچمدار هواوی با دوربین XMAGE و طراحی زیبا.",
+    "stock": 60,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Huawei+P60+Pro"
+    ],
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 70
+  },
+  {
+    "name": "لپ تاپ دل مدل XPS 13",
+    "category": "لپ تاپ",
+    "price": 55000000,
+    "available": true,
+    "description": "لپ تاپ اولترابوک با طراحی بی‌نظیر و نمایشگر InfinityEdge.",
+    "stock": 40,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Dell+XPS+13"],
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 50
+  },
+  {
+    "name": "سرویس قابلمه 10 پارچه چدن",
+    "category": "خانه و آشپزخانه",
+    "price": 6000000,
+    "available": true,
+    "description": "سرویس قابلمه چدنی با دوام بالا و پخش حرارت یکنواخت.",
+    "stock": 35,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Cast+Iron+Pots"
+    ],
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 20
+  },
+  {
+    "name": "کتاب '۲۱ درس برای قرن ۲۱' اثر یووال نوح هراری",
+    "category": "سایر",
+    "price": 350000,
+    "available": true,
+    "description": "کاوشی در چالش‌های پیش روی بشریت در قرن حاضر.",
+    "stock": 380,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=21+Lessons"],
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 150
+  },
+  {
+    "name": "ماشین ظرفشویی ال‌جی مدل D1444WF",
+    "category": "خانه و آشپزخانه",
+    "price": 42000000,
+    "available": true,
+    "description": "ماشین ظرفشویی با موتور اینورتر دایرکت درایو و کم صدا.",
+    "stock": 18,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=LG+Dishwasher"],
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 20
+  },
+  {
+    "name": "هودی مردانه کلاه دار",
+    "category": "پوشاک",
+    "price": 1800000,
+    "available": true,
+    "description": "هودی گرم و راحت با طراحی مدرن، مناسب برای پاییز و زمستان.",
+    "stock": 190,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Men+Hoodie"],
+    "ratingsAverage": 4.3,
+    "ratingsQuantity": 85
+  },
+  {
+    "name": "میز تلویزیون مدل مدرن",
+    "category": "خانه",
+    "price": 5000000,
+    "available": true,
+    "description": "میز تلویزیون با طراحی مینیمال و فضای کافی برای لوازم جانبی.",
+    "stock": 25,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Modern+TV+Stand"
+    ],
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 15
+  },
+  {
+    "name": "ساندویچ ساز تفال مدل SM1552",
+    "category": "خانه و آشپزخانه",
+    "price": 1800000,
+    "available": true,
+    "description": "ساندویچ ساز با صفحات نچسب و قابلیت گریل.",
+    "stock": 60,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Tefal+Sandwich+Maker"
+    ],
+    "ratingsAverage": 3.9,
+    "ratingsQuantity": 35
+  },
+  {
+    "name": "پیراهن زنانه مجلسی حریر",
+    "category": "پوشاک",
+    "price": 2800000,
+    "available": true,
+    "description": "پیراهن مجلسی زنانه با پارچه حریر و طراحی شیک.",
+    "stock": 90,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Silk+Dress"],
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 40
+  },
+  {
+    "name": "گوشی هوشمند گوگل مدل Pixel 7a",
+    "category": "موبایل",
+    "price": 25000000,
+    "available": true,
+    "description": "گوشی میان‌رده گوگل با دوربین عالی و تجربه اندروید خالص.",
+    "stock": 100,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Google+Pixel+7a"
+    ],
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 80
+  },
+  {
+    "name": "لپ تاپ ایسر مدل Aspire 5",
+    "category": "لپ تاپ",
+    "price": 22000000,
+    "available": true,
+    "description": "لپ تاپ اقتصادی و کارآمد برای استفاده روزمره و اداری.",
+    "stock": 130,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Acer+Aspire+5"],
+    "ratingsAverage": 4.1,
+    "ratingsQuantity": 70
+  },
+  {
+    "name": "پاوربانک انکر مدل PowerCore III Sense 10K",
+    "category": "سایر",
+    "price": 1800000,
+    "available": true,
+    "description": "پاوربانک با ظرفیت 10000 میلی‌آمپر ساعت و شارژ سریع.",
+    "stock": 280,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Anker+Powerbank"
+    ],
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 160
+  },
+  {
+    "name": "کتاب 'بی‌حد و مرز' اثر جیم کوییک",
+    "category": "سایر",
+    "price": 290000,
+    "available": true,
+    "description": "راهنمایی برای بهبود حافظه، یادگیری سریع‌تر و رسیدن به پتانسیل کامل.",
+    "stock": 420,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Limitless+Book"
+    ],
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 190
+  },
+  {
+    "name": "سرویس قاشق و چنگال 24 پارچه استیل",
+    "category": "خانه و آشپزخانه",
+    "price": 2500000,
+    "available": true,
+    "description": "سرویس قاشق و چنگال استیل ضد زنگ، مناسب برای 6 نفر.",
+    "stock": 50,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Cutlery+Set"],
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 25
+  },
+  {
+    "name": "آباژور ایستاده مدل مدرن",
+    "category": "خانه",
+    "price": 3500000,
+    "available": true,
+    "description": "آباژور ایستاده با طراحی ساده و نورپردازی ملایم.",
+    "stock": 30,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Floor+Lamp"],
+    "ratingsAverage": 4.2,
+    "ratingsQuantity": 12
+  },
+  {
+    "name": "سشوار حرفه‌ای رمینگتون مدل AC9140",
+    "category": "سایر",
+    "price": 2200000,
+    "available": true,
+    "description": "سشوار با موتور AC و فناوری تولید یون برای خشک کردن سریع.",
+    "stock": 75,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Remington+Hair+Dryer"
+    ],
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 50
+  },
+  {
+    "name": "صندلی ناهارخوری چوبی (تکی)",
+    "category": "خانه",
+    "price": 1000000,
+    "available": true,
+    "description": "صندلی ناهارخوری چوبی با طراحی ساده و محکم.",
+    "stock": 80,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Dining+Chair"],
+    "ratingsAverage": 3.8,
+    "ratingsQuantity": 40
+  },
+  {
+    "name": "عطر مردانه دیور ساواژ 100 میل",
+    "category": "سایر",
+    "price": 9000000,
+    "available": true,
+    "description": "عطر محبوب و پرفروش مردانه با رایحه‌ای خاص و ماندگار.",
+    "stock": 40,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Dior+Sauvage"],
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 100
+  },
+  {
+    "name": "لباس خواب زنانه ساتن",
+    "category": "پوشاک",
+    "price": 1200000,
+    "available": true,
+    "description": "لباس خواب زنانه با جنس ساتن نرم و لطیف.",
+    "stock": 150,
+    "images": [
+      "https://placehold.co/600x400/000000/FFFFFF?text=Satin+Nightwear"
+    ],
+    "ratingsAverage": 4.1,
+    "ratingsQuantity": 70
+  },
+  {
+    "name": "کتاب 'چهار اثر از فلورانس اسکاول شین'",
+    "category": "سایر",
+    "price": 270000,
+    "available": true,
+    "description": "کتابی الهام‌بخش در زمینه خودیاری و قانون جذب.",
+    "stock": 500,
+    "images": ["https://placehold.co/600x400/000000/FFFFFF?text=Four+Works"],
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 200
+  }
+]
