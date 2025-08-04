@@ -4,6 +4,22 @@ import { protect, restrictTo } from "./../controller/authController.js";
 
 const router = express.Router();
 
+// Top-5-Best of All Products
+router
+  .route("/top-5-best")
+  .get(
+    productController.aliasTopFiveProducts,
+    productController.getAllProducts
+  );
+
+  // Top-5-Cheapest Mobile
+router
+  .route("/top-5-Cheapest-mobile")
+  .get(
+    productController.cheapestMobile,
+    productController.getAllProducts
+  );
+
 // These EndPoints create new products (only admin) and get all proudcts
 router
   .route("/")
