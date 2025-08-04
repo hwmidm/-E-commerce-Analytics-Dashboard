@@ -1,6 +1,24 @@
 import Product from "./../model/productModel.js";
 import catchAsync from "../utils/catchAsync.js";
 import AppError from "../utils/AppError.js";
+import APIFeatures from "../utils/APIFeatures.js";
+
+// Alias top 5 of All Products
+export const aliasTopFiveProducts = catchAsync(async (req, res, next) => {
+  req.query.limit = "5";
+  req.query.sort = "-ratingsAverage";
+  req.query.fields = "name,price,ratingsAverage,category,stock";
+  next();
+});
+
+// Alias for 5 cheapest Mobile Category
+export const cheapestMobile = catchAsync(async (req, res, next) => {
+  req.query.limit = "5";
+  req.query.category = "موبایل";
+  req.query.sort = "price";
+  req.query.fields = "name,price,ratingsAverage,category,stock";
+  next();
+});
 
 // Create New Products
 export const createProduct = catchAsync(async (req, res, next) => {
@@ -26,7 +44,17 @@ export const createProduct = catchAsync(async (req, res, next) => {
 
 // Get All Products
 export const getAllProducts = catchAsync(async (req, res, next) => {
-  const products = await Product.find();
+  // Build Query
+
+  // Pagination
+
+  // Excecute query
+  const features = new APIFeatures(Product.find(), req.query)
+    .filter()
+    .sort()
+    .limitFields()
+    .paginate();
+  const products = await features.query;
   res.status(200).json({
     status: "success",
     result: products.length,
@@ -75,7 +103,7 @@ export const deleteProduct = catchAsync(async (req, res, next) => {
   }
 });
 
-// Updates and edits details of a specific product 
+// Updates and edits details of a specific product
 export const updateProduct = catchAsync(async (req, res, next) => {
   // Only these fields can be edited
   const allowFields = [
