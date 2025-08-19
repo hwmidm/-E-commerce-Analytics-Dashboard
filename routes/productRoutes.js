@@ -12,13 +12,19 @@ router
     productController.getAllProducts
   );
 
-  // Top-5-Cheapest Mobile
+// Top-5-Cheapest Mobile
 router
   .route("/top-5-Cheapest-mobile")
   .get(
     productController.cheapestMobile,
     productController.getAllProducts
   );
+
+// Stats Routes
+router.route("/categorystats").get(productController.getProductStats)
+router.route("/stock-stats").get(productController.getCategoryStockStats)
+
+
 
 // These EndPoints create new products (only admin) and get all proudcts
 router

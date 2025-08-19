@@ -4,6 +4,12 @@ import { protect, restrictTo } from "./../controller/authController.js";
 
 const router = express.Router();
 
+// Stats Routes
+router.route("/categorystats").get(orderController.statsOrderCategory);
+router.route("/ordercounter").get(orderController.orderCounter);
+router.route("/user-stats").get(orderController.getUserOrderStats);
+
+
 router
   .route("/")
   .post(protect, orderController.createOrder)

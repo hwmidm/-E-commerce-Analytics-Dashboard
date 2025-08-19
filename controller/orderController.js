@@ -3,6 +3,101 @@ import catchAsync from "../utils/catchAsync.js";
 import AppError from "../utils/AppError.js";
 import Product from "../model/productModel.js";
 
+// count orders per product category
+export const statsOrderCategory = catchAsync(async (req, res, next) => {
+  const stats = await Order.aggregate([
+    {
+      $unwind: "$products",
+    },
+    {
+      $lookup: {
+        from: "products",
+        localField: "products.product",
+        foreignField: "_id",
+        as: "productDetails",
+      },
+    },
+    {
+      $group: {
+        _id: "$productDetails.category",
+        numberOfSoldItems: { $sum: 1 },
+      },
+    },
+    {
+      $sort: {
+        numberOfSoldItems: -1,
+      },
+    },
+  ]);
+
+  res.status(200).json({
+    status: "success",
+    data: { stats },
+  });
+});
+
+//
+export const orderCounter = catchAsync(async (req, res, next) => {
+  const numberOfOrders = await Order.aggregate([
+    {
+      $count: "total",
+    },
+  ]);
+
+  res.status(200).json({
+    status: "success",
+    data: {
+      numberOfOrders,
+    },
+  });
+});
+
+// get username for every order
+export const getUserOrderStats = catchAsync(async (req, res, next) => {
+  const Stats = await Order.aggregate([
+    {
+      $lookup: {
+        from: "users",
+        localField: "user",
+        foreignField: "_id",
+        as: "userInfo",
+      },
+    },
+    {
+      $unwind: "$userInfo",
+    },
+    {
+      $group: {
+        _id: "$user",
+        numberOfOrders: { $sum: 1 },
+        username: { $first: "$userInfo.username" },
+        userEmail: { $first: "$userInfo.email" },
+      },
+    },
+    {
+      $sort: {
+        numberOfOrders: -1,
+      },
+    },
+    {
+      $project: {
+        _id: 0,
+        userid: "$_id",
+        username: "$username",
+        userEmail: "$userEmail",
+        numberOfOrders: "$numberOfOrders",
+      },
+    },
+  ]);
+
+  res.status(200).json({
+    status: "success",
+    data: {
+      Stats,
+    },
+  });
+});
+
 export const createOrder = catchAsync(async (req, res, next) => {
   // Check if products array is exists and make sure it's not empty
   if (!req.body.products || req.body.products.length === 0) {
@@ -49,7 +144,7 @@ export const getOneOrder = catchAsync(async (req, res, next) => {
     if (!order) {
       return next(new AppError("سفارشی با این شناسه یافت نشد", 404));
     }
-    if ( req.user.role !== "admin" && order.user.id !== req.user.id) {
+    if (req.user.role !== "admin" && order.user.id !== req.user.id) {
       return next(new AppError("شما مجاز به دیدن این سفارش نیستید", 403));
     }
     res.status(200).json({
