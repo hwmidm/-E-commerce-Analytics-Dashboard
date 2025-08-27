@@ -8,7 +8,9 @@ const router = express.Router();
 router.route("/categorystats").get(orderController.statsOrderCategory);
 router.route("/ordercounter").get(orderController.orderCounter);
 router.route("/user-stats").get(orderController.getUserOrderStats);
-
+router.route("/total-income").get(orderController.getTotalIncome);
+router.route("/total-income-category").get(orderController.getIncomePerCategory);
+router.route("/most-sales-products").get(orderController.getMostSaleProduct);
 
 router
   .route("/")

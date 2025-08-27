@@ -98,6 +98,120 @@ export const getUserOrderStats = catchAsync(async (req, res, next) => {
   });
 });
 
+// Calculating total income
+export const getTotalIncome = catchAsync(async (req, res, next) => {
+  const totalIncome = await Order.aggregate([
+    {
+      $group: {
+        _id: null,
+        total: { $sum: "$totalAmount" },
+      },
+    },
+    {
+      $project: {
+        _id: 0,
+        TotalSalesAmount: "$total",
+      },
+    },
+  ]);
+  res.status(200).json({
+    status: "success",
+    data: {
+      totalIncome,
+    },
+  });
+});
+
+// Calcualte income for every category
+export const getIncomePerCategory = catchAsync(async (req, res, next) => {
+  const income = await Order.aggregate([
+    {
+      $unwind: "$products",
+    },
+    {
+      $lookup: {
+        from: "products",
+        localField: "products.product",
+        foreignField: "_id",
+        as: "productInfo",
+      },
+    },
+    {
+      $unwind: "$productInfo",
+    },
+    {
+      $group: {
+        _id: "$productInfo.category",
+        total: { $sum: "$products.priceAtPurchase" },
+      },
+    },
+    {
+      $project: {
+        _id: 0,
+        category: "$_id",
+        totalIncome: "$total",
+      },
+    },
+  ]);
+  res.status(200).json({
+    status: "success",
+    result: income.length,
+    data: {
+      income,
+    },
+  });
+});
+
+// Find the most sales product
+export const getMostSaleProduct = catchAsync(async (req, res, next) => {
+  const stats = await Order.aggregate([
+    {
+      $unwind: "$products",
+    },
+    {
+      $lookup: {
+        from: "products",
+        localField: "products.product",
+        foreignField: "_id",
+        as: "productInfo",
+      },
+    },
+    {
+      $unwind: "$productInfo",
+    },
+    {
+      $group: {
+        _id: {
+          id: "$products.product",
+          name: "$productInfo.name",
+        },
+        count: { $sum: "$products.quantity" },
+      },
+    },
+    {
+      $sort: { count: -1 },
+    },
+    {
+      $limit: 10,
+    },
+    {
+      $project: {
+        _id: 0,
+        productName: "$_id.name",
+        totalSold: "$count",
+      },
+    },
+  ]);
+
+  res.status(200).json({
+    status: "success",
+    data: {
+      stats,
+    },
+  });
+});
+
+
 export const createOrder = catchAsync(async (req, res, next) => {
   // Check if products array is exists and make sure it's not empty
   if (!req.body.products || req.body.products.length === 0) {
