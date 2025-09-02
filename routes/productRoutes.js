@@ -20,9 +20,9 @@ router
     productController.getAllProducts
   );
 
-// Stats Routes
-router.route("/categorystats").get(productController.getProductStats)
-router.route("/stock-stats").get(productController.getCategoryStockStats)
+// // Stats Routes
+// router.route("/categorystats").get(productController.getProductStats)
+// router.route("/stock-stats").get(productController.getCategoryStockStats)
 
 
 

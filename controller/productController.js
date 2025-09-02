@@ -20,68 +20,7 @@ export const cheapestMobile = catchAsync(async (req, res, next) => {
   next();
 });
 
-// Get Stats of the product that its ratingsAverage is more than 4.5 in every category
-export const getProductStats = catchAsync(async (req, res, next) => {
-  const stats = await Product.aggregate([
-    {
-      $match: {
-        ratingsAverage: { $gte: 4.5 },
-      },
-    },
-    {
-      $group: {
-        _id: { $toUpper: "$category" },
-        numProducts: { $sum: 1 },
-        avgRatings: { $avg: "$ratingsAverage" },
-        maxPrice: { $max: "$price" },
-        minPrice: { $min: "$price" },
-      },
-    },
-    {
-      $sort: {
-        avgRatings: -1,
-      },
-    },
-    {
-      $project: {
-        avgRatings: { $round: ["$avgRatings", 2] },
-        numProducts: 1,
-        maxPrice: 1,
-        minPrice: 1,
-      },
-    },
-  ]);
-  res.status(200).json({
-    status: "success",
-    data: {
-      stats,
-    },
-  });
-});
 
-// Get total of Stock for every Category
-export const getCategoryStockStats = catchAsync(async (req, res, next) => {
-  const totalStocks = await Product.aggregate([
-    {
-      $match: { available: true },
-    },
-    {
-      $group: {
-        _id: { $toUpper: "$category" },
-        totalOfStocks: { $sum: "$stock" },
-      },
-    },
-    {
-      $sort: { totalOfStocks : 1},
-    },
-  ]);
-  res.status(200).json({
-    status: "success",
-    data: {
-      totalStocks,
-    },
-  });
-});
 
 // Create New Products
 export const createProduct = catchAsync(async (req, res, next) => {
@@ -107,10 +46,6 @@ export const createProduct = catchAsync(async (req, res, next) => {
 
 // Get All Products
 export const getAllProducts = catchAsync(async (req, res, next) => {
-  // Build Query
-
-  // Pagination
-
   // Excecute query
   const features = new APIFeatures(Product.find(), req.query)
     .filter()

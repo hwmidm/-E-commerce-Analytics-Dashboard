@@ -1,5 +1,4 @@
 import User from "../model/userModel.js";
-import AppError from "../utils/AppError.js";
 import catchAsync from "../utils/catchAsync.js";
 
 export const getAll = catchAsync(async (req, res, next) => {

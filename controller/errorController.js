@@ -52,10 +52,10 @@ const sendErrProd = (err, res) => {
       status: err.status,
       message: err.message,
     });
-    // Unknown error and programming error send to client and we dont want to lead error details
+    // Unknown error and programming error send to client and we dont want to leak error details
   } else {
     // 1) log error
-    console.error("Unknown ERRROOOORR in PRODUCTION", err);
+    console.error("Unknown Error in PRODUCTION", err);
     // 2) send generic error message
     res.status(500).json({
       status: "error",
