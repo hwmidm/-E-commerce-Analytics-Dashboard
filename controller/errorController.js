@@ -2,7 +2,7 @@ import AppError from "../utils/AppError.js"; // Custom error class for operation
 
 // Handles Mongoose CastError
 const handleCastErrorDb = (err) => {
-  const message = `Invalid ${err.path} : ${err.value}`;
+  const message = `شناسه محصول مورد نظر اشتباه است`;
   return new AppError(message, 400);
 };
 
@@ -75,10 +75,12 @@ export default (err, req, res, next) => {
     sendErrDev(err, res); // Send detailed error in development
   } else if (process.env.NODE_ENV === "production") {
     // Create a copy of the error to avoid modifying the original error object
-    let error = { ...err };
-    error.message = err.message;
-    error.name = err.name;
-    error.stack = err.stack;
+    let error = {
+      ...err,
+      name: err.name,
+      message: err.message,
+      isOperational: err.isOperational,
+    };
 
     // Handle specific error types and convert them into operational AppErrors
     if (error.name === "CastError") error = handleCastErrorDb(error);

@@ -53,12 +53,10 @@ export const login = catchAsync(async (req, res, next) => {
   if (!username && !email) {
     return next(new AppError("یوزرنیم یا ایمیل خود را وارد کنید", 400));
   }
-  let user;
-  if (email) {
-    user = await User.findOne({ email }).select("+password");
-  } else if (username) {
-    user = await User.findOne({ username }).select("+password");
-  }
+
+  const user = await User.findOne({ $or: [{ email }, { username }] }).select(
+    "+password"
+  );
   if (!user) {
     return next(new AppError("کاربری با این مشخصات یافت نشد", 401));
   }
@@ -110,6 +108,6 @@ export const restrictTo = (...roles) => {
     if (!roles.includes(req.user.role)) {
       return next(new AppError("شما اجازه دسترسی به این مسیر را ندارید", 403));
     }
-    next()
+    next();
   });
 };

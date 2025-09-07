@@ -2,7 +2,6 @@ import { configDotenv } from "dotenv";
 import mongoose from "mongoose";
 import app from "./app.js";
 
-
 // *** Configurations ***
 // Load enviroment variable
 configDotenv({ path: "./config.env" });
@@ -15,13 +14,8 @@ mongoose
   })
   .catch((err) => console.log(`DB connection failed : ${err}`));
 
-
-// Enviroment logging 
-if (process.env.development) {
-  console.log("Development");
-} else if (process.env.production) {
-  console.log("Production");
-}
+// Enviroment logging
+console.log(process.env.NODE_ENV);
 
 // server setup and start server
 const port = process.env.PORT || 3000;

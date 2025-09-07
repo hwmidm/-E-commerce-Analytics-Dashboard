@@ -20,8 +20,6 @@ export const cheapestMobile = catchAsync(async (req, res, next) => {
   next();
 });
 
-
-
 // Create New Products
 export const createProduct = catchAsync(async (req, res, next) => {
   const newProduct = await Product.create({
@@ -64,41 +62,25 @@ export const getAllProducts = catchAsync(async (req, res, next) => {
 
 // Get One Products
 export const getOne = catchAsync(async (req, res, next) => {
-  try {
-    const item = await Product.findById(req.params.id);
-    if (!item) {
-      return next(new AppError("محصولی با این شناسه یافت نشد", 404));
-    }
-    res.status(200).json({
-      status: "success",
-      data: {
-        item,
-      },
-    });
-  } catch (error) {
-    // return a message when id is not like a mongoDB ID
-    if (error.name === "CastError" && error.path === "_id") {
-      return next(new AppError("شناسه محصول وارد شده معتبر نمی باشد", 400));
-    }
-    return next(error);
+  const item = await Product.findById(req.params.id);
+  if (!item) {
+    return next(new AppError("محصولی با این شناسه یافت نشد", 404));
   }
+  res.status(200).json({
+    status: "success",
+    data: {
+      item,
+    },
+  });
 });
 
 // Delete a specific product
 export const deleteProduct = catchAsync(async (req, res, next) => {
-  try {
-    const item = await Product.findByIdAndDelete(req.params.id);
-    if (!item) {
-      return next(new AppError("محصولی با این شناسه یافت نشد", 404));
-    }
-    res.status(204).send();
-  } catch (error) {
-    // return a message when id is not like a mongoDB ID
-    if (error.name === "CastError" && error.path === "_id") {
-      return next(new AppError("شناسه محصول وارد شده معتبر نمی باشد", 400));
-    }
-    return next(error);
+  const item = await Product.findByIdAndDelete(req.params.id);
+  if (!item) {
+    return next(new AppError("محصولی با این شناسه یافت نشد", 404));
   }
+  res.status(204).send();
 });
 
 // Updates and edits details of a specific product
@@ -113,44 +95,31 @@ export const updateProduct = catchAsync(async (req, res, next) => {
     "stock",
     "images",
   ];
-  try {
-    const filteredBody = {};
-    // if fields in payload is one of the allow field then store that field in filteredBody object
-    Object.keys(req.body).forEach((key) => {
-      if (allowFields.includes(key)) {
-        filteredBody[key] = req.body[key];
-      }
-    });
-    // if any field in payload is not an allowed filed , return an error message
-    const hasUnauthorizedFields = Object.keys(req.body).some((key) => {
-      return !allowFields.includes(key);
-    });
-    if (hasUnauthorizedFields) {
-      return next(
-        new AppError(
-          "فیلد یا فیلدهای غیرمجاز برای به روز رسانی جزئیات محصول وارد شده است . برای به روز رسانی جزئیات محصول فقط می توان اسم و دسته بندی و قیمت و توضیحات محصول و موجودی بودن یا نبودن و عکس های محصول یا تعداد موجودی را تفیر داد",
-          403
-        )
-      );
-    }
-    // if everything is ok , update and edit the product information
-    const item = await Product.findByIdAndUpdate(req.params.id, filteredBody, {
-      new: true,
-      runValidators: true,
-    });
-    if (!item) {
-      return next(new AppError("محصولی با این شناسه یافت نشد", 404));
-    }
-    res.status(200).json({
-      status: "success",
-      message: "کالا مورد نظر با موفقیت به روزرسانی شد",
-      data: { item },
-    });
-  } catch (error) {
-    // Returns a message when the ID is not a valid MongoDB ID format
-    if (error.name === "CastError" && error.path === "_id") {
-      return next(new AppError("شناسه محصول وارد شده معتبر نمی باشد", 400));
-    }
-    return next(error);
+
+  const updates = Object.keys(req.body);
+  const isValidUpdate = updates.every((update) => allowFields.includes(update));
+
+  if (!isValidUpdate) {
+    return next(
+      new AppError(
+        "فیلد یا فیلدهای غیرمجاز برای به روز رسانی جزئیات محصول وارد شده است . برای به روز رسانی جزئیات محصول فقط می توان اسم و دسته بندی و قیمت و توضیحات محصول و موجودی بودن یا نبودن و عکس های محصول یا تعداد موجودی را تفیر داد",
+        403
+      )
+    );
+  } // if everything is ok , update and edit the product information
+
+  const item = await Product.findByIdAndUpdate(req.params.id, req.body, {
+    new: true,
+    runValidators: true,
+  });
+
+  if (!item) {
+    return next(new AppError("محصولی با این شناسه یافت نشد", 404));
   }
+
+  res.status(200).json({
+    status: "success",
+    message: "کالا مورد نظر با موفقیت به روزرسانی شد",
+    data: { item },
+  });
 });
